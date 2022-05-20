@@ -1,0 +1,898 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color:white;
+}
+.back{
+    height:3780px;
+    width:1000px;
+    margin: auto;
+    margin-top: 3rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.185) , 0 0 40px rgba(0, 0, 0, 0.212);
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 15rem;
+    border: 25px solid black;
+}
+.mug h2{
+    margin-top: 12rem;
+    position: absolute;
+    margin-left: 25rem;
+    width:20rem;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+    line-height: 4.5rem;
+}
+.mug img{
+    margin-top: 12rem;
+    position: absolute;
+    margin-left: 30rem;
+    transform: rotate(30deg);
+    height:200px;
+}
+.background{
+    background: url('coffee background.jpg') no-repeat center center;
+    background-size:1100px;
+    height: 440px;
+    position: relative;
+    margin-top: -3.1rem;
+    margin-left: -0.5rem;
+
+
+}
+.head{
+    background-color:rgba(210, 105, 30, 0.171);
+    height:8rem;
+    margin-top:3rem;
+    width:60rem;
+    position: fixed;
+    top:0;
+}
+.time {
+    margin-top: -7.9rem;
+    margin-left:30rem;
+    position: absolute;
+}
+.time p{
+    color: white;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+    margin-left: 5rem;
+    margin-top: 2.5rem;
+}
+
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-6rem;
+    padding:px;
+    margin-left: 12rem;
+    position: absolute;
+}
+.navbar ul{
+    list-style: none;
+    display:inline-block;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li a{
+    font-weight: bold;
+}
+.navbar1{
+   margin-left: 500px;
+   margin-top: -65px;
+}
+.navbar ul li{
+    list-style:none;
+    padding:10px 50px;  
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: black;
+        font-size:20px;
+    }
+    .navbar ul ul{
+        margin-top: 0px;
+        position:absolute
+       
+    }
+    .navbar ul ul {
+        display:none;
+    }
+    .navbar ul ul li{
+        background-color:rgba(0, 0, 0, 0.726);
+        border-radius: 10px;
+        margin-left: -2rem;
+    }
+    .navbar ul ul li a {
+        display:inline;
+        margin-top: 140px;
+        margin-left: -30px;
+        font-weight: bold;
+        color:white;
+      
+    }
+    .navbar ul li:hover > ul{
+        display:block;
+    }
+
+
+/*******************************middle*********************************/
+.about{
+    background-color: black;
+    height:3400px;
+    width:970px;
+    margin-top: -3.1rem;
+    
+    margin-left: -1rem;
+}
+.us h2{
+    color:rgb(231, 138, 23);
+    margin-top: 2rem;
+    position: absolute;
+    margin-left: 25rem;
+    font-size: 40px;
+   font-family: 'Poppins', sans-serif;
+}
+.us span{
+    color:white;
+}
+.img1{
+    display: flex;
+}
+.img {
+    margin-left: -1rem;
+}
+.head1{
+    margin-top: 10rem;
+}
+.head1 h2{
+    color:white;
+    font-family:'Poppins', sans-serif; 
+    margin-left: -5rem;
+    font-size: 25px;
+}
+.head1 p{
+    color:white;
+    margin-left: -5rem;
+    margin-top: 1rem;
+    line-height: 1.6rem;
+    font-size: 17px;
+}
+.button{
+    margin-left: 32rem;
+    margin-top: -2rem;
+}
+.button button{
+    padding:10px 30px;
+    background-color:rgb(231, 138, 23); 
+    color:white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.OUR h2{
+    color:white;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 35px;
+    color:rgb(231, 138, 23); 
+    font-family:'Poppins', sans-serif; 
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10rem;
+    margin-top: 3rem;
+    margin-left: 8rem;
+}
+/************************************grid1************************************/
+.grid1{
+    height:300px;
+    width:300px;
+    border: 1px solid white;
+    margin-left: -8rem;
+}
+.grid1 img{
+    margin-left: 6rem;
+    margin-top: 1rem;
+}
+.grid1 img:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.grid1 h4{
+    color:white;
+    text-align: center;
+    margin-top: 1rem;
+}
+.grid1 h3{
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 25px;
+    margin-left: -2rem;
+}
+.grid1 button{
+    background-color: white;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    padding:10px 20px;
+    background-color: rgb(231, 138, 23); 
+    font-family: cursive;
+    cursor:pointer;
+    font-weight: bold;
+    border-radius: 10px;
+}
+/******************************************Grid2*****************************************/
+.grid2{
+    height:300px;
+    width:300px;
+    border: 1px solid white;
+    margin-left: -7rem;
+}
+.grid2 img{
+    margin-left: 6rem;
+    margin-top: 1rem;
+}
+.grid2 img:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.grid2 h4{
+    color:white;
+    text-align: center;
+    margin-top: 1rem;
+}
+.grid2 h3{
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 25px;
+    margin-left: -2rem;
+}
+.grid2 button{
+    background-color: white;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    padding:10px 20px;
+    background-color: rgb(231, 138, 23); 
+    font-family: cursive;
+    cursor:pointer;
+    font-weight: bold;
+    border-radius: 10px;
+}
+/**************************************************Grid3**********************************/
+.grid3{
+    height:300px;
+    width:300px;
+    border: 1px solid white;
+    margin-left: -8rem;
+}
+.grid3 img{
+    margin-left: 6rem;
+    margin-top: 1rem;
+}
+.grid3 img:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.grid3 h4{
+    color:white;
+    text-align: center;
+    margin-top: 1rem;
+}
+.grid3 h3{
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 25px;
+    margin-left: -2rem;
+}
+.grid3 button{
+    background-color: white;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    padding:10px 20px;
+    background-color: rgb(231, 138, 23); 
+    font-family: cursive;
+    cursor:pointer;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/****************************************Grid4***************************************/
+
+.grid4{
+    height:300px;
+    width:300px;
+    border: 1px solid white;
+    margin-left: -8rem;
+    margin-top: -3rem;
+}
+.grid4 img{
+    margin-left: 6rem;
+    margin-top: 1rem;
+}
+.grid4 img:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.grid4 h4{
+    color:white;
+    text-align: center;
+    margin-top: 1rem;
+}
+.grid4 h3{
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 25px;
+    margin-left: -2rem;
+}
+.grid4 button{
+    background-color: white;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    padding:10px 20px;
+    background-color: rgb(231, 138, 23); 
+    font-family: cursive;
+    cursor:pointer;
+    font-weight: bold;
+    border-radius: 10px;
+}
+/**********************************Grid5********************************/
+
+.grid5{
+    height:300px;
+    width:300px;
+    border: 1px solid white;
+    margin-left: -7rem;
+    margin-top: -3rem;
+}
+.grid5 img{
+    margin-left: 6rem;
+    margin-top: 1rem;
+}
+.grid5 img:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.grid5 h4{
+    color:white;
+    text-align: center;
+    margin-top: 1rem;
+}
+.grid5 h3{
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 25px;
+    margin-left: -2rem;
+}
+.grid5 button{
+    background-color: white;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    padding:10px 20px;
+    background-color: rgb(231, 138, 23); 
+    font-family: cursive;
+    cursor:pointer;
+    font-weight: bold;
+    border-radius: 10px;
+}
+/**********************************Grid6*******************************/
+
+.grid6{
+    height:300px;
+    width:300px;
+    border: 1px solid white;
+    margin-left: -8rem;
+    margin-top: -3rem;
+}
+.grid6 img{
+    margin-left: 6rem;
+    margin-top: 1rem;
+}
+.grid6 img:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.grid6 h4{
+    color:white;
+    text-align: center;
+    margin-top: 1rem;
+}
+.grid6 h3{
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 25px;
+    margin-left: -2rem;
+}
+.grid6 button{
+    background-color: white;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    padding:10px 20px;
+    background-color: rgb(231, 138, 23); 
+    font-family: cursive;
+    cursor:pointer;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/***************************Products****************************************/
+
+.Products h2{
+    text-align: center;
+    margin-top: 3rem;
+    font-family: 'Roboto';
+    font-size: 35px;
+}
+.Products span{
+    color:rgb(243, 173, 87);
+}
+
+/**********************************Grid7***********************************/
+.grid7{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 7rem;
+    margin-left: 3rem;
+}
+/****************************grid8****************************************/
+.grid8{
+    height:430px;
+    width:300px;
+    border: 1px solid white;
+    margin-top: -3rem;
+    margin-left: -3rem;
+}
+.grid12 h2{
+    text-align: center;
+    margin-top: 1rem;
+}
+.grid12 img{
+    margin-left: 4rem;
+    margin-top: 4rem;
+}
+
+.grid12 h4{
+    font-size: 25px;
+    font-family: 'Roboto';
+    margin-top: 1rem;
+    text-align: center;
+}
+
+span1{
+    height:30px;
+    width:30px;
+    border: 1px solid white;
+    margin-left: 4.6rem;
+    margin-top: 1rem;
+    position: absolute;
+}
+span1 i{
+    margin-left: 0.2rem;
+    margin-top: 0.4rem;
+}
+span1:hover{
+    background-color:rgb(243, 173, 87) ;
+    cursor:pointer;
+}
+
+
+span2{
+    height:30px;
+    width:30px;
+    border: 1px solid white;
+    margin-left: 7.9rem;
+    margin-top: 1rem;
+    position: absolute;
+}
+span2 i{
+    margin-left: 0.4rem;
+    margin-top: 0.4rem;
+}
+span2 i:hover{
+ color:red;
+}
+span2:hover{
+    background-color:rgb(243, 173, 87) ;
+    cursor:pointer;
+}
+span3{
+    height:30px;
+    width:30px;
+    border: 1px solid white;
+    margin-left: 11.5rem;
+    margin-top: 1rem;
+    position: absolute;
+}
+span3 i{
+    margin-left: 0.4rem;
+    margin-top: 0.4rem;
+}
+span3:hover{
+    background-color:rgb(243, 173, 87) ;
+    cursor:pointer;
+}
+
+
+/**********************************grid9*************************************/
+.grid9{
+    height:430px;
+    width:300px;
+    border: 1px solid white;
+    margin-top: -3rem;
+    margin-left: 3rem;
+}
+.grid13 img{
+    margin-left: 4rem;
+    margin-top: 4rem;
+}
+.grid13 h2{
+    text-align: center;
+    margin-top: 1rem;
+}
+.grid13 h4{
+    font-size: 25px;
+    font-family: 'Roboto';
+    margin-top: 1rem;
+    text-align: center;
+}
+
+span4{
+    height:30px;
+    width:30px;
+    border: 1px solid white;
+    margin-left: 4.6rem;
+    margin-top: 1rem;
+    position: absolute;
+}
+span4 i{
+    margin-left: 0.2rem;
+    margin-top: 0.4rem;
+}
+span4:hover{
+    background-color:rgb(243, 173, 87) ;
+    cursor:pointer;
+}
+
+
+span5{
+    height:30px;
+    width:30px;
+    border: 1px solid white;
+    margin-left: 7.9rem;
+    margin-top: 1rem;
+    position: absolute;
+}
+span5 i{
+    margin-left: 0.4rem;
+    margin-top: 0.4rem;
+}
+span5 i:hover{
+ color:red;
+}
+span5:hover{
+    background-color:rgb(243, 173, 87) ;
+    cursor:pointer;
+}
+
+span6{
+    height:30px;
+    width:30px;
+    border: 1px solid white;
+    margin-left: 11.5rem;
+    margin-top: 1rem;
+    position: absolute;
+}
+span6 i{
+    margin-left: 0.2rem;
+    margin-top: 0.4rem;
+}
+span6:hover{
+    background-color:rgb(243, 173, 87) ;
+    cursor:pointer;
+}
+
+
+/************************************Grid10**********************************/
+.grid10{
+    height:430px;
+    width:300px;
+    border: 1px solid white;
+    margin-top: -3rem;
+   margin-left: 2rem;
+}
+.grid14 h2{
+    text-align: center;
+    margin-top: 1rem;
+}
+.grid14 img{
+    margin-left: 4rem;
+    margin-top: 4rem;
+}
+
+.grid14 h4{
+    font-size: 25px;
+    font-family: 'Roboto';
+    margin-top: 1rem;
+    text-align: center;
+}
+
+span7{
+    height:30px;
+    width:30px;
+    border: 1px solid white;
+    margin-left: 4.6rem;
+    margin-top: 1rem;
+    position: absolute;
+}
+span7 i{
+    margin-left: 0.2rem;
+    margin-top: 0.4rem;
+}
+span7:hover{
+    background-color:rgb(243, 173, 87) ;
+    cursor:pointer;
+}
+
+
+span8{
+    height:30px;
+    width:30px;
+    border: 1px solid white;
+    margin-left: 7.9rem;
+    margin-top: 1rem;
+    position: absolute;
+}
+span8 i{
+    margin-left: 0.4rem;
+    margin-top: 0.4rem;
+}
+span8 i:hover{
+ color:red;
+}
+span8:hover{
+    background-color:rgb(243, 173, 87) ;
+    cursor:pointer;
+}
+
+span9{
+    height:30px;
+    width:30px;
+    border: 1px solid white;
+    margin-left: 11.5rem;
+    margin-top: 1rem;
+    position: absolute;
+}
+span9 i{
+    margin-left: 0.2rem;
+    margin-top: 0.4rem;
+}
+span9:hover{
+    background-color:rgb(243, 173, 87) ;
+    cursor:pointer;
+}
+/********************************Blog********************************/
+.Blog{
+    text-align: center;
+    margin-top: 4rem;
+}
+.Blog h2{
+    font-family: 'Roboto';
+    font-size: 35px;
+    letter-spacing: 0.2rem;
+}
+.Blog span{
+    color:rgb(243, 173, 87) ;
+}
+/************************************grid15****************************/
+.grid15{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    margin-top: 4rem;
+    grid-gap:4rem;
+}
+.head9{
+    height:300px;
+    width:980px;
+    border: 1px solid white;
+    display: flex;
+}
+.head9 h1{
+    margin-left: 4rem;
+    font-family: 'Roboto';
+    margin-top: 1rem;
+  
+}
+.grid16 p{
+ margin-top: -13rem;
+ position: absolute;
+ margin-left: 30rem;
+ color:rgb(243, 173, 87);
+}
+.grid16 img:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.grid16 button{
+    position:absolute;
+    margin-left: 10rem;
+    margin-top: -5rem;
+    padding:10px 30px;
+    background-color: rgb(243, 173, 87);
+    font-family: cursive;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/****************************grid17*************************************/
+.head10{
+    height:300px;
+    width:980px;
+    border: 1px solid white;
+    display: flex;
+}
+.head10 h1{
+    margin-left: 4rem;
+    font-family: 'Roboto';
+    margin-top: 1rem;
+  
+}
+.grid17 p{
+ margin-top: -13rem;
+ position: absolute;
+ margin-left: 30rem;
+ color:rgb(243, 173, 87);
+}
+.grid17 img:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.grid17 button{
+    position:absolute;
+    margin-left: 10rem;
+    margin-top: -5rem;
+    padding:10px 30px;
+    background-color: rgb(243, 173, 87);
+    font-family: cursive;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/**************************grid18************************************/
+
+.head11{
+    height:300px;
+    width:980px;
+    border: 1px solid white;
+    display: flex;
+}
+.head11 h1{
+    margin-left: 4rem;
+    font-family: 'Roboto';
+    margin-top: 1rem;
+  
+}
+.grid18 p{
+ margin-top: -13rem;
+ position: absolute;
+ margin-left: 30rem;
+ color:rgb(243, 173, 87);
+}
+.grid18 img:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.grid18 button{
+    position:absolute;
+    margin-left: 10rem;
+    margin-top: -5rem;
+    padding:10px 30px;
+    background-color: rgb(243, 173, 87);
+    font-family: cursive;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/**************************************Social**************************************/
+
+.social{
+    display: flex;
+   margin-left: 20rem;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 35px;
+    cursor:pointer;
+}
+.contract h2{
+    font-size: 35px;
+    color:coral;
+    text-align: center;
+    margin-top: 2rem;
+}
+.facebook{
+    background-color: rgba(0, 0, 0, 0.589);
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+  
+}
+.facebook:hover{
+    box-shadow: 1px 1px 10px  #4267B2 , 1px 1px 20px  #4267B2;
+}
+.facebook i{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 0.7rem;
+    color: #4267B2;
+}
+.twitter{
+    background-color: rgba(0, 0, 0, 0.589);
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+    margin-left: 2rem;
+}
+.twitter i{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 0.7rem;
+    color:#1DA1F2;
+  
+}
+.twitter:hover{
+    box-shadow: 1px 1px 10px #1DA1F2 , 1px 1px 20px #1DA1F2;
+}
+.what{
+    background-color: rgba(0, 0, 0, 0.589);
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+    margin-left: 2rem;
+}
+.what i{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 0.7rem;
+    color:#25D366;
+   
+}
+.what:hover{
+    box-shadow: 1px 1px 10px #25D366 , 1px 1px 20px #25D366;
+}
+
+.Youtube{
+    background-color: rgba(0, 0, 0, 0.842);
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+    margin-left: 2rem;
+}
+.Youtube:hover{
+    box-shadow: 1px 1px 10px red , 1px 1px 20px red;
+}
+.Youtube i{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 0.7rem;
+    color:red;
+  
+}
